@@ -32,7 +32,7 @@ vim-buffer: A buffer operate plugin for vim
 License
 ------------
 
-This software is licensed under the [MIT license][2]. © 2016 chxuan
+This software is licensed under the [MIT license][2]. © 2018 chxuan
 
   [1]: https://github.com/VundleVim/Vundle.vim
   [2]: https://github.com/chxuan/vim-buffer/blob/master/LICENSE
