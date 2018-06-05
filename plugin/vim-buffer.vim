@@ -18,17 +18,17 @@ command! -nargs=0 BufOnly :call <sid>buf_only()
 
 " 切换到上一个buffer
 function! s:previous_buffer()
-    silent execute ":bp"
+    execute ":bp"
 endfunction
 
 " 切换到下一个buffer
 function! s:next_buffer()
-    silent execute ":bn"
+    execute ":bn"
 endfunction
 
 " 关闭当前buffer
 function! s:close_current_buffer()
-    silent execute ":bd"
+    execute ":bd"
 endfunction
 
 " 关闭其余buffer
