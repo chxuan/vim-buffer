@@ -63,7 +63,7 @@ endfunction
 
 " 获得最后一个buffer编号
 function! s:get_last_buffer_number()
-    return bufnr("%")
+    return bufnr("$")
 endfunction
 
 " 判断是否存在buffer
@@ -73,7 +73,7 @@ endfunction
 
 " 关闭当前窗口
 function! s:close_current_window()
-    execute ":q"
+    execute ":close"
 endfunction
 
 " 关闭当前buffer
